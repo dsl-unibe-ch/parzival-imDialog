@@ -1,0 +1,25 @@
+{
+  "name": "parzival-proto4diged",
+  "version": "0.0.1",
+  "description": "Slides for the Proto4DigEd Workshop 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "eloc open \"./slides.md\" --css \"./style.css\"",
+    "start": "npm run open",
+    "build": "eloc build \"./slides.md\" --css \"./style.css\" --include \"./img/*\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsl-unibe-ch/parzival-proto4digEd.git"
+  },
+  "author": "Sebastian Flick, Peter Dängeli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsl-unibe-ch/parzival-proto4digEd/issues"
+  },
+  "homepage": "https://github.com/dsl-unibe-ch/parzival-proto4digEd#readme",
+  "dependencies": {
+    "eloc": "^1.3.2"
+  }
+}
