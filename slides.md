@@ -17,15 +17,27 @@ Die Suche nach dem ewig wartbaren Gral
 <!-- etwas über die Wichtigkeit des Projekts sagen, wie lange es schon läuft. Dass da über Jahre verschiedene Leute daran gearbeitet haben -->
 ---
 ### Legacy Workflow
-Tustep, SQL-DB, php, manuell bearbeitetes pures HTML
-// TODO get more info about current workflow!
+
+Tustep
+`$<*T 103.07>_[name ref="rego:o0254" type="Ort"]Waleis[/name] und [name ref="rego:o0012" type="Ort"]Anschouwe[/name],`
+
+--> TXT
+`21;r;a;103;6;;d(er) kvneginne vber driv lant`
+
+--> SQL-DB --> php --> HTML
+`<td><span class="versheader">103.<a name="103.6">6</a></span> <span class="vers-content">d<span class="7">(er)</span> kvneginne vber driv lant</span></td>`
 
 ---
 
 ## Pilotanwendung TEIPublisher
 
-erste Idee (TH): klassischer TEIPublisher-Stack
-aber Anspruch: Funktionserhalt, UI/UX-Entscheidungen beibehalten
+erste Idee: klassischer TEIPublisher-Stack
+---
+Anspruch: Funktionserhalt, UI/UX-Entscheidungen beibehalten
+
+![verssynopse](/img/synopsis.png)
+
+---
 
 ### roadblocks:
 
