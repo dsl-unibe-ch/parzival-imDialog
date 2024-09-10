@@ -13,9 +13,8 @@ Die Suche nach dem ewig wartbaren Gral
         max-height: 500px;        
     }
 </style>
-
-## <!-- etwas über die Wichtigkeit des Projekts sagen, wie lange es schon läuft. Dass da über Jahre verschiedene Leute daran gearbeitet haben -->
-
+<!-- etwas über die Wichtigkeit des Projekts sagen, wie lange es schon läuft. Dass da über Jahre verschiedene Leute daran gearbeitet haben -->
+---
 ### Legacy Workflow
 
 Tustep
@@ -55,35 +54,100 @@ _add some meme here_
 
 ---
 
-Revisionskontrolle
+#### Revisionskontrolle
+
+---
+Unser Versuch
+
+Single source of truth: github repository.
+
+Wenn sich Daten in github ändern: gh-action vergleicht mit TEI-Publisher und pusht via API
+
+Wenn sich Daten in TEI-Publisher ändern: XQuery Trigger startet gh-action, die Dateien vergleicht.
 
 ---
 
-Organisation der Seite
-passt nicht zu XML-Struktur
-passt nicht zum Aufbau der Edition
+Organisation der Seite passt nicht zu XML-Struktur
+<!-- bei Fassungen -->
+Synoptische XML als Grundlage
+``` xml
+<text>
+<body>
+<div type="Dreissiger" subtype="d" n="2">
+<div type="Textteil" subtype="d" n="2">
+<head>*D</head>
+```
 
 ---
 
 fehlende webcomponents-Expertise
-allg. uptake sehr limitiert
+[![webcomponent](/img/webcomponentImage.png)](https://cdn.tei-publisher.com/@2.23.2/dist/api.html#pb-document.0)
 
 ---
 
 ### neues Konzept
 
 TEIPublisher nur für rendering der text views / Transkriptionen
-gut: kleingranular möglich durch XQuery-API (rendered snippets)
+
+```
+fetch(
+`${teipb}/parts/${element.handle}.xml/json
+?odd=parzival.odd
+&view=single
+&xpath=//text/body/l[@xml:id=%27${element.handle}_${thirties}.${verse}%27]`)
+```
+
+kleingranular möglich durch XQuery-API (rendered snippets)
 
 ---
 
 ODD nur CSS-Klassen
+```
+<elementSpec ident="seg" mode="change">
+    <model behaviour="inline" cssClass="glory-initial">
+        <param name="subtype" value="Prachtinitiale"/>
+    </model>
+    <model behaviour="inline" cssClass="initial" useSourceRendition="true">
+        <param name="type" value="Initiale"/>
+    </model>
+</elementSpec>
+```
 Funktionalität und finales Design nur im Frontend
 D3 u.ä. (Kartenvisualisierungen) im Frontend
 
 ---
 
-statisches Backend
+[statisches Backend](https://github.com/DHBern/parzival-static-api/blob/master/dist/api/json/contiguous_ranges.json)
+```json
+{
+  "meta": {
+    "generated-by": "parzival-static-api\/src\/generate.xsl",
+    "task": "contiguous-ranges",
+    "generated-on": "2024-09-04T16:16:13.951621295Z",
+    "description": "Contiguous ranges of 'Dreissiger' for each edited document; this is the backbone for the overview\/linking visualisation a.k.a. 'devil's table'."
+  },
+  "contiguous-ranges": [
+    {
+      "values": [ [ 1, 827 ] ],
+      "label": "d"
+    },
+    {
+      "values": [
+        [ 421, 429 ],
+        [ 636, 644 ]
+      ],
+      "label": "fr1"
+    },
+    {
+      "values": [
+        [ 667, 671 ],
+        [ 678, 681 ]
+      ],
+      "label": "fr10"
+    }
+  ]
+}
+```
 Strukturdateien und Metadent versionskontrolliert über eigene API (skriptbasiert, GH Actions)
 
 ---
