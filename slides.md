@@ -6,7 +6,7 @@ Die Suche nach dem ewig wartbaren Gral
 
 ## Parzival-Legacy
 
-![legacy-Parzival-Screenshot](/img/image.png)
+[![legacy-Parzival-Screenshot](/img/image.png)](https://parzival.unibe.ch/parzdb/index.php)
 
 <style>
     .slide img {
@@ -18,7 +18,7 @@ Die Suche nach dem ewig wartbaren Gral
 ### Legacy Workflow
 
 Tustep
-`$<*T 103.07>_[name ref="rego:o0254" type="Ort"]Waleis[/name] und [name ref="rego:o0012" type="Ort"]Anschouwe[/name],`
+`$<*T 103.06>_<vara1>der</var> küniginne über driu lant,`
 
 --> TXT
 `21;r;a;103;6;;d(er) kvneginne vber driv lant`
@@ -48,9 +48,7 @@ Anspruch: Funktionserhalt, UI/UX-Entscheidungen beibehalten
 
 ---
 
-### roadblocks:
-
-_add some meme here_
+### roadblocks
 
 ---
 
@@ -97,7 +95,7 @@ fetch(
 &xpath=//text/body/l[@xml:id=%27${element.handle}_${thirties}.${verse}%27]`)
 ```
 
-kleingranular möglich durch XQuery-API (rendered snippets)
+kleingranular möglich durch [XQuery-API (rendered snippets)](https://dhbern.github.io/presentation_parzival/einzelverssynopse/103/07)
 
 ---
 
@@ -143,7 +141,7 @@ D3 u.ä. (Kartenvisualisierungen) im Frontend
     line-height: 1.1 !important;    
   }
 </style>
-Strukturdateien und Metadaten versionskontrolliert über eigene API (skriptbasiert, GH Actions)
+Strukturdateien und Metadaten versionskontrolliert über eigene API (skriptbasiert, GH Actions) als grundlage für [erweiterte Features](https://dhbern.github.io/presentation_parzival/)
 
 ---
 
@@ -154,7 +152,7 @@ Strukturdateien und Metadaten versionskontrolliert über eigene API (skriptbasie
 ### technisch
 ---
 
-revision control (data & app config)
+backup < revision control (data & app config)
 
 ---
 
@@ -165,7 +163,7 @@ jede App braucht de facto eigenen exist-server (Fehlendes feinteiliges user-mana
 
 ---
 
-versioning
+komplexes versioning
 
 - verschiedene integrale Bestandteile, **die niemals unabhängig von TEIP genutzt werden** sind einzeln versioniert und sind nur mit bestimmten Versionen kompatibel.
   - Exist-db 6.2.0
@@ -175,7 +173,12 @@ versioning
 
 ---
 
-upgrades sind mitnichten simpel und jede major version benötigte manuelle Anpassungen (bei exist teils auf Datenebene).
+upgrades sind mitnichten simpel und jede major version benötigt manuelle Anpassungen (bei exist teils auf Datenebene).
 
 [![exist upgrade](exist_upgrade.png)](https://exist-db.org/exist/apps/wiki/blogs/eXist/eXistdb620)
 [![tei publisher upgrade](teipublisher_upgrade.png)](https://teipublisher.com/exist/apps/tei-publisher/documentation/updating?action=search&view=div&odd=docbook.odd#3.28.15.3)
+
+---
+
+Irgendeine Take-Home message.
+Z.B. reine TEI-Publisher-workflows machen nur Sinn, wenn sie von Jinntec umgesetzt werden.
