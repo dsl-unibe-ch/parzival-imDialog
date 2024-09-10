@@ -110,8 +110,7 @@ ODD nur CSS-Klassen
     </model>
 </elementSpec>
 ```
-Funktionalität und finales Design nur im Frontend
-D3 u.ä. (Kartenvisualisierungen) im Frontend
+Funktionalität und Design nur im Frontend
 
 ---
 
@@ -141,7 +140,7 @@ D3 u.ä. (Kartenvisualisierungen) im Frontend
     line-height: 1.1 !important;    
   }
 </style>
-Strukturdateien und Metadaten versionskontrolliert über eigene API (skriptbasiert, GH Actions) als grundlage für [erweiterte Features](https://dhbern.github.io/presentation_parzival/)
+Strukturdateien und Metadaten versionskontrolliert über eigene API (skriptbasiert, GH Actions) als Grundlage für [erweiterte Features](https://dhbern.github.io/presentation_parzival/)
 
 ---
 
