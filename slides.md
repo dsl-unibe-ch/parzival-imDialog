@@ -124,13 +124,10 @@ D3 u.ä. (Kartenvisualisierungen) im Frontend
     "generated-by": "parzival-static-api\/src\/generate.xsl",
     "task": "contiguous-ranges",
     "generated-on": "2024-09-04T16:16:13.951621295Z",
-    "description": "Contiguous ranges of 'Dreissiger' for each edited document; this is the backbone for the overview\/linking visualisation a.k.a. 'devil's table'."
+    "description": "Contiguous ranges of 'Dreissiger' for each edited document;
+    this is the backbone for the overview\/linking visualisation a.k.a. 'devil's table'."
   },
   "contiguous-ranges": [
-    {
-      "values": [ [ 1, 827 ] ],
-      "label": "d"
-    },
     {
       "values": [
         [ 421, 429 ],
@@ -138,37 +135,47 @@ D3 u.ä. (Kartenvisualisierungen) im Frontend
       ],
       "label": "fr1"
     },
-    {
-      "values": [
-        [ 667, 671 ],
-        [ 678, 681 ]
-      ],
-      "label": "fr10"
-    }
   ]
 }
 ```
-Strukturdateien und Metadent versionskontrolliert über eigene API (skriptbasiert, GH Actions)
+<style>
+  code {
+    line-height: 1.1 !important;    
+  }
+</style>
+Strukturdateien und Metadaten versionskontrolliert über eigene API (skriptbasiert, GH Actions)
 
 ---
 
 ## Red Flags
 
-technical
-revision control (data files)
-non-containment; jede App braucht eigene TEIPb-Instanz (aber mehrere TEIPb auf 1 eXist möglich?)
-required expertise (sys admin)
-versions chaos:
+---
 
-- verschiedene integrale Bestandteile die niemals unabhängig von TEIP genutzt werden sind einzeln versioniert und funktionieren aber nur mit einer einzigen Version jeweils.
-  - Exist-db
-  - Tei Publisher
-  - Web components
-  - API
-  - exide
-  - roaster
-  - dashboard
-  - existdb-login
-  - EXPath Bin Module
-  - Launcher
-  - undundund...
+### technisch
+---
+
+revision control (data & app config)
+
+---
+
+non-containment;
+jede App braucht de facto eigenen exist-server (Fehlendes feinteiliges user-management)
+
+<!-- Hier gibt's keinen zu zeigennden Screenshot, einfach die Situation erklären: obwohl man einen owner definieren können soll, haben wir es nicht geschafft, zwei apps so zu konfigurieren, dass auf der einen nur user des einen projekts, auf der anderen nur user des anderen projekts dokumente ändern können. -->
+
+---
+
+versioning
+
+- verschiedene integrale Bestandteile, **die niemals unabhängig von TEIP genutzt werden** sind einzeln versioniert und sind nur mit bestimmten Versionen kompatibel.
+  - Exist-db 6.2.0
+  - Tei Publisher 9.0.0
+  - Web components 2.19.0
+  - API 1.0.0
+
+---
+
+upgrades sind mitnichten simpel und jede major version benötigte manuelle Anpassungen (bei exist teils auf Datenebene).
+
+[![exist upgrade](exist_upgrade.png)](https://exist-db.org/exist/apps/wiki/blogs/eXist/eXistdb620)
+[![tei publisher upgrade](teipublisher_upgrade.png)](https://teipublisher.com/exist/apps/tei-publisher/documentation/updating?action=search&view=div&odd=docbook.odd#3.28.15.3)
