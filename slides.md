@@ -25,10 +25,8 @@ Die Suche nach dem ewig wartbaren Gral
 
 Tustep
 `$<*T 103.06>_<vara1>der</var> küniginne über driu lant,`
-
---> TXT
+--> TXT<br />
 `21;r;a;103;6;;d(er) kvneginne vber driv lant`
-
 --> SQL-DB --> php --> HTML
 `<td><span class="versheader">103.<a name="103.6">6</a></span> <span class="vers-content">d<span class="7">(er)</span> kvneginne vber driv lant</span></td>`
 
@@ -73,7 +71,7 @@ Wenn sich Daten in TEI-Publisher ändern: XQuery Trigger startet gh-action, die 
 
 Organisation der Seite passt nicht zu XML-Struktur
 <!-- bei Fassungen -->
-Synoptische XML als Grundlage
+[Synoptische XML](https://github.com/DHBern/parzival-static-api/blob/master/dist/api/tei/original/syn2.xml) als Grundlage
 ``` xml
 <text>
 <body>
