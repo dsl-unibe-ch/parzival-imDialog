@@ -12,13 +12,13 @@ Die Suche nach dem ewig wartbaren Gral
 
 [https://dsl-unibe-ch.github.io/parzival-proto4digEd](https://dsl-unibe-ch.github.io/parzival-proto4digEd)
 
-![qr-code](/img/qr.png)
+![qr-code](img/qr.png)
 
 ---
 
 ## Parzival-Legacy
 
-[![legacy-Parzival-Screenshot](/img/image.png)](https://parzival.unibe.ch/parzdb/index.php)
+[![legacy-Parzival-Screenshot](img/image.png)](https://parzival.unibe.ch/parzdb/index.php)
 
 <style>
     .slide img {
@@ -45,15 +45,15 @@ Anspruch: Funktionserhalt, UI/UX-Entscheidungen beibehalten
 
 ---
 
-![verssynopse](/img/synopsis.png)
+![verssynopse](img/synopsis.png)
 
 ---
 
-![wireframe-verssynopse](/img/wf-synopsis.jpg)
+![wireframe-verssynopse](img/wf-synopsis.jpg)
 
 ---
 
-[![new-synopse](/img/new-synopse.png)](https://dhbern.github.io/presentation_parzival/textzeugen/d-mk/719/25)
+[![new-synopse](img/new-synopse.png)](https://dhbern.github.io/presentation_parzival/textzeugen/d-mk/719/25)
 
 ---
 
@@ -87,8 +87,8 @@ Organisation der Seite passt nicht zu XML-Struktur
 
 ---
 
-Fehlende webcomponents-Expertise am DSL
-[![webcomponent](/img/webcomponentImage.png)](https://cdn.tei-publisher.com/@2.23.2/dist/api.html#pb-document.0)
+#### Fehlende webcomponents-Expertise am DSL
+[![webcomponent](img/webcomponentImage.png)](https://cdn.tei-publisher.com/@2.23.2/dist/api.html#pb-document.0)
 
 ---
 
