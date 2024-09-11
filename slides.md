@@ -89,7 +89,11 @@ Organisation der Seite passt nicht zu XML-Struktur
 
 #### Fehlende webcomponents-Expertise am DSL
 [![webcomponent](img/webcomponentImage.png)](https://cdn.tei-publisher.com/@2.23.2/dist/api.html#pb-document.0)
-
+<style>
+    .slide img {
+        max-height: 400px;        
+    }
+</style>
 ---
 
 ### neues Konzept
