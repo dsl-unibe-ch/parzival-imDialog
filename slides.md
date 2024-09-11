@@ -19,7 +19,6 @@ Die Suche nach dem ewig wartbaren Gral
         max-height: 500px;        
     }
 </style>
-<!-- etwas über die Wichtigkeit des Projekts sagen, wie lange es schon läuft. Dass da über Jahre verschiedene Leute daran gearbeitet haben -->
 ---
 ### Legacy Workflow
 
@@ -34,7 +33,7 @@ Tustep
 
 ## Pilotanwendung TEIPublisher
 
-## erste Idee: klassischer TEIPublisher-Stack
+erste Idee: klassischer TEIPublisher-Stack
 
 Anspruch: Funktionserhalt, UI/UX-Entscheidungen beibehalten
 
