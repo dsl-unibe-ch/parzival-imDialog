@@ -3,7 +3,7 @@
 Die Suche nach dem ewig wartbaren Gral
 
 <style>
-  .slide { background: url(dsl0.png) center; background-size: cover }
+  .slide { background: url(img/dsl0.png) center; background-size: cover }
 #  .content { filter: invert() }
   code { opacity: 0.8 }
 </style>
