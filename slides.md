@@ -10,6 +10,12 @@ Die Suche nach dem ewig wartbaren Gral
 
 ---
 
+[https://dsl-unibe-ch.github.io/parzival-proto4digEd](https://dsl-unibe-ch.github.io/parzival-proto4digEd)
+
+![qr-code](/img/qr.png)
+
+---
+
 ## Parzival-Legacy
 
 [![legacy-Parzival-Screenshot](/img/image.png)](https://parzival.unibe.ch/parzdb/index.php)
