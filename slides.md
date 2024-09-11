@@ -221,8 +221,16 @@ Upgrades sind keine simple Sache und jede major version benötigt manuelle Anpas
 
 ---
 
- 
 ### konzeptuell 🚩
+
+* ODD-Ursprünge
+  * Status Ende 2020: "broken beyond repair" (betr. TEI Stylesheets)
+* parallel dazu: TEI Processing Model; TEI P5 3.0 (2016)
+  * Abstraktion
+  * generisch funktionierende Plattform, spezifisch anpassbar
+* eine Implementierung; Entwickler setzen zugleich Standards
+* wie breit ist der PM-Ansatz effektiv akzeptiert?
+* wie viel Abstraktion ist hilfreich?
 
 
 <!-- Irgendeine Take-Home message.
