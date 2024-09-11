@@ -157,6 +157,12 @@ Strukturdateien und Metadaten versionskontrolliert über eigene API (skriptbasie
 
 * **Dokumentation** (*sweet spot*: alles Betriebsrelevante prominent vorhanden; alles Weitere so konzise wie möglich)
 
+* **reduzierte Serverabhängigkeit** (statisch, was statisch geht)
+
+* **ODD-Generierung umgebungsunabhängig**
+
+<span style="font-size:0.5em;line-height:0.5em;">In näherer Zukunft setzen wir uns aber auch mit dem "klassischen" Betrieb auseinander (als Dienstleistungsangebot von UB/DH/DSL).</span>
+
 ---
 
 ## 🚩 Red Flags 🚩
@@ -198,11 +204,14 @@ Upgrades sind keine simple Sache und jede major version benötigt manuelle Anpas
 
 ---
 
-
-
----
-
 ### organisatorisch/sozial 🚩
+
+* wachsende Community
+* kleines Kernentwicklungsteam
+* Risiken
+  * feature requests
+  * Bus-Faktor
+  * Stimmung
 
 ---
 
