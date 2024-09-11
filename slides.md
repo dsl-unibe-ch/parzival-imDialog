@@ -74,7 +74,7 @@ Wenn sich Daten in TEI-Publisher ändern: XQuery Trigger startet gh-action, die 
 
 ---
 
-#### Organisation der Seite passt nicht zu XML-Struktur
+Organisation der Seite passt nicht zu XML-Struktur
 <!-- bei Fassungen -->
 [Synoptische XML](https://github.com/DHBern/parzival-static-api/blob/master/dist/api/tei/original/syn2.xml) als Grundlage
 ``` xml
@@ -87,7 +87,7 @@ Wenn sich Daten in TEI-Publisher ändern: XQuery Trigger startet gh-action, die 
 
 ---
 
-#### Fehlende webcomponents-Expertise am DSL
+Fehlende webcomponents-Expertise am DSL
 [![webcomponent](/img/webcomponentImage.png)](https://cdn.tei-publisher.com/@2.23.2/dist/api.html#pb-document.0)
 
 ---
@@ -108,7 +108,7 @@ kleingranular möglich durch [XQuery-API (rendered snippets)](https://dhbern.git
 
 ---
 
-#### ODD nur CSS-Klassen
+ODD nur CSS-Klassen
 ```
 <elementSpec ident="seg" mode="change">
     <model behaviour="inline" cssClass="glory-initial">
@@ -123,7 +123,7 @@ Funktionalität und Design nur im Frontend
 
 ---
 
-#### [statisches Backend](https://github.com/DHBern/parzival-static-api/blob/master/dist/api/json/contiguous_ranges.json)
+[statisches Backend](https://github.com/DHBern/parzival-static-api/blob/master/dist/api/json/contiguous_ranges.json)
 ```json
 {
   "meta": {
@@ -231,6 +231,12 @@ Upgrades sind keine simple Sache und jede major version benötigt manuelle Anpas
 * eine Implementierung; Entwickler setzen zugleich Standards
 * wie breit ist der PM-Ansatz effektiv akzeptiert?
 * wie viel Abstraktion ist hilfreich?
+
+---
+
+### Diskussion / rebuttal :)
+
+Danke für die Aufmerksamkeit.
 
 
 <!-- Irgendeine Take-Home message.
