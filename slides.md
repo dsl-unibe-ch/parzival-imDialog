@@ -2,6 +2,12 @@
 
 Die Suche nach dem ewig wartbaren Gral
 
+<style>
+  .slide { background: url(dsl0.png) center; background-size: cover }
+#  .content { filter: invert() }
+  code { opacity: 0.8 }
+</style>
+
 ---
 
 ## Parzival-Legacy
@@ -78,7 +84,7 @@ Synoptische XML als Grundlage
 
 ---
 
-fehlende webcomponents-Expertise
+Fehlende webcomponents-Expertise am DSL
 [![webcomponent](/img/webcomponentImage.png)](https://cdn.tei-publisher.com/@2.23.2/dist/api.html#pb-document.0)
 
 ---
@@ -144,11 +150,27 @@ Strukturdateien und Metadaten versionskontrolliert über eigene API (skriptbasie
 
 ---
 
-## Red Flags
+## Wo stehen wir?
 
 ---
 
-### technisch
+### Wünschenswert
+
+* **abgrenzbare Einheiten** (Modularität) mit klarem Zweck (Funktionalität)
+
+* **Dokumentation** (*sweet spot*: alles Betriebsrelevante prominent vorhanden; alles Weitere so konzise wie möglich)
+
+---
+
+## 🚩 Red Flags 🚩
+
+* technisch
+* organisatorisch/sozial
+* konzeptuell
+
+---
+
+### technisch 🚩
 ---
 
 backup < revision control (data & app config)
@@ -164,7 +186,7 @@ jede App braucht de facto eigenen exist-server (Fehlendes feinteiliges user-mana
 
 komplexes versioning
 
-- verschiedene integrale Bestandteile, **die niemals unabhängig von TEIP genutzt werden** sind einzeln versioniert und sind nur mit bestimmten Versionen kompatibel.
+- verschiedene integrale Bestandteile, **die niemals unabhängig von TEIP genutzt werden**, sind einzeln versioniert und sind nur mit bestimmten Versionen kompatibel.
   - Exist-db 6.2.0
   - Tei Publisher 9.0.0
   - Web components 2.19.0
@@ -172,12 +194,25 @@ komplexes versioning
 
 ---
 
-upgrades sind mitnichten simpel und jede major version benötigt manuelle Anpassungen (bei exist teils auf Datenebene).
+Upgrades sind keine simple Sache und jede major version benötigt manuelle Anpassungen (bei eXist teils auf Datenebene).
 
 [![exist upgrade](exist_upgrade.png)](https://exist-db.org/exist/apps/wiki/blogs/eXist/eXistdb620)
 [![tei publisher upgrade](teipublisher_upgrade.png)](https://teipublisher.com/exist/apps/tei-publisher/documentation/updating?action=search&view=div&odd=docbook.odd#3.28.15.3)
 
 ---
 
-Irgendeine Take-Home message.
+
+
+---
+
+### organisatorisch/sozial 🚩
+
+---
+
+ 
+### konzeptuell 🚩
+
+
+<!-- Irgendeine Take-Home message.
 Z.B. reine TEI-Publisher-workflows machen nur Sinn, wenn sie von Jinntec umgesetzt werden.
+-->
