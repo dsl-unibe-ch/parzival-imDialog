@@ -209,8 +209,8 @@ komplexes versioning
 
 Upgrades sind keine simple Sache und jede major version benötigt manuelle Anpassungen (bei eXist teils auf Datenebene).
 
-[![exist upgrade](exist_upgrade.png)](https://exist-db.org/exist/apps/wiki/blogs/eXist/eXistdb620)
-[![tei publisher upgrade](teipublisher_upgrade.png)](https://teipublisher.com/exist/apps/tei-publisher/documentation/updating?action=search&view=div&odd=docbook.odd#3.28.15.3)
+[![exist upgrade](img/exist_upgrade.png)](https://exist-db.org/exist/apps/wiki/blogs/eXist/eXistdb620)
+[![tei publisher upgrade](img/teipublisher_upgrade.png)](https://teipublisher.com/exist/apps/tei-publisher/documentation/updating?action=search&view=div&odd=docbook.odd#3.28.15.3)
 
 ---
 

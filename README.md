@@ -11,8 +11,10 @@ Requirements: node and npm
 
 If you want to use the CLI-options of eloc, use `npm exec -- eloc`.
 
+Or simlply `eloc deck.md`
+
 ## Commands
 
 | presentation                              | command                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------- |
-| [State of DSE 2023](2023/state-of-dse.md) | `npm exec -- eloc open 2023/state-of-dse.md --css "2023/style.css"` |
+| [parzival-proto4digEd](2023/parzival-proto4digEd.md) | `npm exec -- eloc open parzival-proto4digEd.md --css "style.css"` |
