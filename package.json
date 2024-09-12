@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "open": "eloc open \"./slides.md\" --css \"./style.css\"",
+    "open": "eloc open \"./parzival-proto4digEd.md\" --css \"./style.css\"",
     "start": "npm run open",
-    "build": "eloc build \"./slides.md\" --css \"./style.css\" --include \"./img/*\""
+    "build": "eloc build \"./parzival-proto4digEd.md\" --css \"./style.css\" --include \"./**\""
   },
   "repository": {
     "type": "git",
