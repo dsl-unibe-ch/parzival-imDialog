@@ -1,4 +1,4 @@
-# Parzivals ODD‑Âventiuren
+# TEI-Publisher als Backend für Parzival
 
 Die Suche nach dem ewig wartbaren Gral
 
@@ -10,7 +10,7 @@ Die Suche nach dem ewig wartbaren Gral
 
 ---
 
-[https://dsl-unibe-ch.github.io/parzival-proto4digEd](https://dsl-unibe-ch.github.io/parzival-proto4digEd)
+[dsl-unibe-ch.github.io/parzival-imDialog](https://dsl-unibe-ch.github.io/parzival-imDialog/)
 
 ![qr-code](img/qr.png)
 
