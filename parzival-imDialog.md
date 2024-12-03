@@ -63,16 +63,7 @@ Anspruch: Funktionserhalt, UI/UX-Entscheidungen beibehalten
 
 ---
 
-#### Revisionskontrolle
-
----
-Unser Versuch
-
-Single source of truth: github repository.
-
-Wenn sich Daten in github ändern: gh-action vergleicht mit TEI-Publisher und pusht via API
-
-Wenn sich Daten in TEI-Publisher ändern: XQuery Trigger startet gh-action, die Dateien vergleicht.
+fehlende Revisionskontrolle
 
 ---
 
@@ -199,14 +190,14 @@ export const prerender = true;
 ---
 ### Resultat
 1.43 GB an HTML,CSS  und JS Dateien
-
+---
 Vorteile
 - extreme Langlebigkeit
 - praktisch keine Wartung nötig
 - hohe Performanz
 - hohe Zugänglichkeit
 - Nachhaltig, da nicht rechenaufwändig
-
+---
 Nachteile
 
 - keine Server-seitige Suche möglich (client-seitig schon)
