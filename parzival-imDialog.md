@@ -189,7 +189,9 @@ export const prerender = true;
 ```
 ---
 ### Resultat
-1.43 GB an HTML,CSS  und JS Dateien
+8 GB an HTML, CSS und JS Dateien
+
+[dhbern.github.io/presentation_parzival/](https://dhbern.github.io/presentation_parzival/)
 ---
 Vorteile
 - extreme Langlebigkeit
