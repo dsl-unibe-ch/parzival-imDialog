@@ -1,6 +1,6 @@
-# parzival-proto4digEd
+# parzival-imDialog
 
-Presentation for the Workshop Proto4DigEd 2024
+Presentation for the Workshop Digitale Edition im Dialog  2024
 
 ## Installation and usage
 
@@ -17,4 +17,4 @@ Or simlply `eloc deck.md`
 
 | presentation                              | command                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------- |
-| [parzival-proto4digEd](parzival-proto4digEd.md) | `npm exec -- eloc open parzival-proto4digEd.md --css "style.css"` |
+| [parzival-imDialog](parzival-imDialog.md) | `npm exec -- eloc open parzival-imDialog.md --css "style.css"` |
