@@ -204,6 +204,7 @@ Nachteile
 
 - keine Server-seitige Suche möglich (client-seitig schon)
 - lange buildzeiten (3h)
+- keine voll ausgereifte API
 ---
 
 Danke für die Aufmerksamkeit.
