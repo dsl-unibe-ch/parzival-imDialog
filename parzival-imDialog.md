@@ -188,6 +188,8 @@ export async function entries() {
 export const prerender = true;
 ```
 ---
+![](img/mermaid-diagram-2024-12-04-102140.png)
+---
 ### Resultat
 8 GB an HTML, CSS und JS Dateien
 
